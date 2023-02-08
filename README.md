@@ -1,8 +1,8 @@
 ---
-title: Lineage Population Model
-emoji: 🐨
-colorFrom: purple
-colorTo: green
+title: Lineage Population
+emoji: 💻
+colorFrom: green
+colorTo: yellow
 sdk: streamlit
 sdk_version: 1.17.0
 app_file: app.py
