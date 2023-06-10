@@ -57,7 +57,7 @@ def lineage_population_model():
     file = st.file_uploader('Upload an image or choose an example')
     example_image = Image.open('./images/lineage_population_examples/'+selected_box2).convert("RGB")
 
-    col1, col2= st.beta_columns(2)
+    col1, col2= st.columns(2)
 
     if file:
         input = Image.open(file).convert("RGB")
